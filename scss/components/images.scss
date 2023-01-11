@@ -1,0 +1,28 @@
+.imagenIndex {
+    position: relative;
+    text-align: center;
+}
+
+.textIndex {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.textIndex p {
+    color: whitesmoke;
+}
+
+.textIndexTitle {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.textIndexTitle h1 {
+    color: whitesmoke;
+}

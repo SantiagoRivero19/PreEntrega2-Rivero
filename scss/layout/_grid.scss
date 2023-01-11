@@ -1,0 +1,30 @@
+#institucional {
+    display: grid;
+    grid-template-areas: "text1 text2 videoInst"
+        "text1 text2 imagenInst";
+    grid-template-columns: 35% 35% 30%;
+}
+
+.text1 {
+    grid-area: text1;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.text2 {
+    grid-area: text2;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.videoInst {
+    grid-area: videoInst;
+}
+
+.imagenInst {
+    grid-area: imagenInst;
+}
+
+.imagenInst img {
+    width: 100%;
+}

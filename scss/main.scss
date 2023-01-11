@@ -1,0 +1,17 @@
+// reset css
+@import "./reset/reset";
+
+// components
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/buttons.scss";
+@import "./components/images.scss";
+@import "./components/navbar.scss";
+@import "./components/overflowx.scss";
+
+// layout
+@import "./layout/flex";
+@import "./layout/grid";
+
+// media querys
+@import "./views/queries"
