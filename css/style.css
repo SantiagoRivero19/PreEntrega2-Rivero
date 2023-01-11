@@ -8,12 +8,10 @@ header {
   display: flex; }
 
 header div {
-  width: 65%;
-  padding: 5px; }
+  width: 65%; }
 
 header nav {
-  width: 35%;
-  padding: 5px; }
+  width: 35%; }
 
 header div img {
   width: 7%;
@@ -77,7 +75,8 @@ footer ul {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  padding: 5px; }
 
 #gallery {
   display: flex;
@@ -349,4 +348,6 @@ main {
   .imagenInst {
     grid-area: imagenInst; }
   .imagenInst img {
-    width: 100%; } }
+    width: 100%; }
+  .textEscuela {
+    text-align: justify; } }
