@@ -8,10 +8,12 @@ header {
   display: flex; }
 
 header div {
-  width: 75%; }
+  width: 65%;
+  padding: 5px; }
 
 header nav {
-  width: 25%; }
+  width: 35%;
+  padding: 5px; }
 
 header div img {
   width: 7%;
@@ -42,20 +44,22 @@ footer {
   padding: 5px; }
 
 footer div {
-  width: 85%; }
+  width: 85%;
+  padding-left: 5px; }
 
 footer ul {
-  width: 15%; }
+  width: 15%;
+  padding-right: 5px; }
 
 .imagenIndex {
   position: relative;
-  text-align: center; }
+  text-align: center;
+  padding: 5px; }
 
 .textIndex {
   position: absolute;
-  bottom: 5px;
-  left: 5px;
-  text-align: left;
+  padding: 5px;
+  text-align: justify;
   font-size: 18px; }
 
 .textIndex p {
@@ -63,8 +67,8 @@ footer ul {
 
 .textIndexTitle {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
   text-align: left;
   font-size: 25px; }
 
@@ -101,7 +105,7 @@ main {
 
 #institucional {
   display: grid;
-  grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
+  grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
   grid-template-columns: 35% 35% 30%; }
 
 .text1 {
@@ -166,7 +170,7 @@ main {
   #institucional {
     display: unset;
     display: grid;
-    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
+    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
     grid-template-columns: 100%; }
   .text1 {
     grid-area: text1;
@@ -216,7 +220,7 @@ main {
   header nav {
     width: 80%; }
   header div img {
-    width: 100%;
+    width: 90%;
     border-radius: 50%;
     padding: 3px; }
   footer {
@@ -231,7 +235,7 @@ main {
     font-size: 20px; }
   #institucional {
     display: grid;
-    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
+    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
     grid-template-columns: 100%; }
   .text1 {
     grid-area: text1;
@@ -258,11 +262,11 @@ main {
   header {
     display: flex; }
   header div {
-    width: 75%; }
+    width: 60%; }
   header nav {
-    width: 25%; }
+    width: 40%; }
   header div img {
-    width: 7%;
+    width: 12%;
     border-radius: 50%;
     padding: 3px; }
   h1 {
@@ -330,7 +334,7 @@ main {
     width: 100%; }
   #institucional {
     display: grid;
-    grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
+    grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
     grid-template-columns: 35% 35% 30%; }
   .text1 {
     grid-area: text1;
