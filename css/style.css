@@ -4,22 +4,17 @@
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif; }
 
-header {
+i {
+  font-size: 25px; }
+
+footer {
   display: flex; }
 
-header div {
-  width: 65%; }
+footer div {
+  width: 85%; }
 
-header nav {
-  width: 35%; }
-
-header div img {
-  width: 7%;
-  border-radius: 50%;
-  padding: 3px; }
-
-a {
-  text-decoration: none; }
+footer ul {
+  width: 15%; }
 
 li {
   display: inline; }
@@ -27,36 +22,15 @@ li {
 ul {
   list-style-type: none; }
 
-.navegacion {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  justify-content: space-evenly;
-  align-items: flex-end; }
-
-i {
-  font-size: 25px; }
-
-footer {
-  display: flex;
-  padding: 5px; }
-
-footer div {
-  width: 85%;
-  padding-left: 5px; }
-
-footer ul {
-  width: 15%;
-  padding-right: 5px; }
+a {
+  text-decoration: none; }
 
 .imagenIndex {
   position: relative;
-  text-align: center;
-  padding: 5px; }
+  text-align: center; }
 
 .textIndex {
   position: absolute;
-  padding: 5px;
   text-align: justify;
   font-size: 18px; }
 
@@ -75,8 +49,16 @@ footer ul {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
-  padding: 5px; }
+  overflow-x: hidden; }
+
+html, main {
+  padding-left: 7px;
+  padding-right: 7px; }
+
+html, footer {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px; }
 
 #gallery {
   display: flex;
@@ -84,17 +66,13 @@ html, body {
 
 .gallery img {
   display: flex;
-  width: 100%;
-  padding: 3px; }
-
-.row {
-  padding: 5px; }
+  width: 100%; }
 
 .column {
   flex: 50%;
   padding: 5px; }
 
-main {
+.row img {
   padding: 5px; }
 
 .redesSociales {
@@ -104,18 +82,18 @@ main {
 
 #institucional {
   display: grid;
-  grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
+  grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
   grid-template-columns: 35% 35% 30%; }
 
 .text1 {
   grid-area: text1;
-  padding-right: 20px;
-  text-align: justify; }
+  text-align: justify;
+  margin-right: 20px; }
 
 .text2 {
   grid-area: text2;
-  padding-right: 20px;
-  text-align: justify; }
+  text-align: justify;
+  margin-right: 20px; }
 
 .videoInst {
   grid-area: videoInst; }
@@ -146,19 +124,8 @@ main {
     font-size: 8px; }
   .textIndexTitle h1 {
     color: whitesmoke; }
-  header {
-    display: flex; }
-  header div {
-    width: 20%; }
-  header nav {
-    width: 80%; }
-  header div img {
-    width: 100%;
-    border-radius: 50%;
-    padding: 3px; }
   footer {
-    display: flex;
-    padding: 5px; }
+    display: flex; }
   footer div {
     width: 65%;
     font-size: 12px; }
@@ -169,24 +136,18 @@ main {
   #institucional {
     display: unset;
     display: grid;
-    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
+    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
     grid-template-columns: 100%; }
   .text1 {
     grid-area: text1;
-    padding-right: 3px;
-    padding-left: 3px;
     text-align: justify; }
   .text2 {
     grid-area: text2;
-    padding-right: 3px;
-    padding-left: 3px;
     text-align: justify; }
   .videoInst {
     grid-area: videoInst; }
   .videoInst iframe {
-    width: 100%;
-    padding-right: 3px;
-    padding-left: 3px; }
+    width: 100%; }
   .imagenInst {
     grid-area: imagenInst; }
   .imagenInst img {
@@ -212,19 +173,8 @@ main {
     font-size: 8px; }
   .textIndexTitle h1 {
     color: whitesmoke; }
-  header {
-    display: flex; }
-  header div {
-    width: 20%; }
-  header nav {
-    width: 80%; }
-  header div img {
-    width: 90%;
-    border-radius: 50%;
-    padding: 3px; }
   footer {
-    display: flex;
-    padding: 5px; }
+    display: flex; }
   footer div {
     width: 65%;
     font-size: 12px; }
@@ -234,40 +184,24 @@ main {
     font-size: 20px; }
   #institucional {
     display: grid;
-    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
+    grid-template-areas: "text1" "videoInst" "text2" "imagenInst";
     grid-template-columns: 100%; }
   .text1 {
     grid-area: text1;
-    padding-right: 3px;
-    padding-left: 3px;
     text-align: justify; }
   .text2 {
     grid-area: text2;
-    padding-right: 3px;
-    padding-left: 3px;
     text-align: justify; }
   .videoInst {
     grid-area: videoInst; }
   .videoInst iframe {
-    width: 100%;
-    padding-right: 3px;
-    padding-left: 3px; }
+    width: 100%; }
   .imagenInst {
     grid-area: imagenInst; }
   .imagenInst img {
     width: 100%; } }
 
 @media screen and (min-width: 1024px) {
-  header {
-    display: flex; }
-  header div {
-    width: 60%; }
-  header nav {
-    width: 40%; }
-  header div img {
-    width: 12%;
-    border-radius: 50%;
-    padding: 3px; }
   h1 {
     font-size: 25px; }
   a {
@@ -306,42 +240,35 @@ main {
   i {
     font-size: 25px; }
   footer {
-    display: flex;
-    padding: 5px; }
+    display: flex; }
   footer div {
     width: 85%; }
   footer p {
     font-size: 18px; }
   footer ul {
     width: 15%; }
-  main {
-    padding: 5px; }
   .redesSociales {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end; }
   .row {
     display: flex;
-    padding: 5px;
     flex-wrap: wrap; }
   .column {
-    flex: 50%;
-    padding: 5px; }
+    flex: 50%; }
   .galleryColumn img {
     margin-top: 5px; }
   .galleryWidth img {
     width: 100%; }
   #institucional {
     display: grid;
-    grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
+    grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
     grid-template-columns: 35% 35% 30%; }
   .text1 {
     grid-area: text1;
-    padding-right: 20px;
     text-align: justify; }
   .text2 {
     grid-area: text2;
-    padding-right: 20px;
     text-align: justify; }
   .videoInst {
     grid-area: videoInst; }
