@@ -193,6 +193,18 @@ button {
   .imagenInst img {
     width: 100%; } }
 
+@media screen and (max-width: 800px) {
+  #footerDisplay {
+    display: grid;
+    grid-template-areas: "textFooter"  "social";
+    grid-template-columns: 100%; }
+  .textFooter {
+    grid-area: textFooter;
+    text-align: center; }
+  .social {
+    grid-area: social;
+    align-items: center; } }
+
 @media screen and (min-width: 1024px) {
   h1 {
     font-size: 25px; }

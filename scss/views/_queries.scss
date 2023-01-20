@@ -142,6 +142,26 @@
     }
 }
 
+//media query footer max 800px
+@media screen and (max-width: 800px){
+    #footerDisplay {
+        display: grid;
+        grid-template-areas: "textFooter" 
+                            "social";
+        grid-template-columns: 100%;
+    }
+    
+    .textFooter {
+        grid-area: textFooter;
+        text-align: center;
+    }
+    
+    .social {
+        grid-area: social;
+        align-items: center;
+    }
+}
+
 //media query laptop and pc
 @media screen and (min-width: 1024px) {
 
