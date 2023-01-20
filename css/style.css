@@ -7,15 +7,6 @@
 i {
   font-size: 25px; }
 
-footer {
-  display: flex; }
-
-footer div {
-  width: 85%; }
-
-footer ul {
-  width: 15%; }
-
 li {
   display: inline; }
 
@@ -24,6 +15,18 @@ ul {
 
 a {
   text-decoration: none; }
+
+#footerDisplay {
+  display: grid;
+  grid-template-areas: "textFooter social";
+  grid-template-columns: 70% 30%; }
+
+.textFooter {
+  grid-area: textFooter;
+  text-align: justify; }
+
+.social {
+  grid-area: social; }
 
 .imagenIndex {
   position: relative;
@@ -60,7 +63,7 @@ html, footer {
   padding-right: 7px;
   padding-top: 5px; }
 
-html, button {
+button {
   margin-right: 12px; }
 
 #gallery {
@@ -127,13 +130,6 @@ html, button {
     font-size: 8px; }
   .textIndexTitle h1 {
     color: whitesmoke; }
-  footer {
-    display: flex; }
-  footer div {
-    width: 65%;
-    font-size: 12px; }
-  footer ul {
-    width: 35%; }
   i {
     font-size: 20px; }
   #institucional {
@@ -176,13 +172,6 @@ html, button {
     font-size: 8px; }
   .textIndexTitle h1 {
     color: whitesmoke; }
-  footer {
-    display: flex; }
-  footer div {
-    width: 65%;
-    font-size: 12px; }
-  footer ul {
-    width: 35%; }
   i {
     font-size: 20px; }
   #institucional {
@@ -242,14 +231,6 @@ html, button {
     color: whitesmoke; }
   i {
     font-size: 25px; }
-  footer {
-    display: flex; }
-  footer div {
-    width: 85%; }
-  footer p {
-    font-size: 18px; }
-  footer ul {
-    width: 15%; }
   .redesSociales {
     display: flex;
     justify-content: space-evenly;
