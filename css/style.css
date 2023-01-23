@@ -86,6 +86,10 @@ button {
   justify-content: space-evenly;
   align-items: flex-end; }
 
+.text2 {
+  display: flex;
+  justify-content: center; }
+
 #institucional {
   display: grid;
   grid-template-areas: "text1 text2 videoInst" "text1 text2 imagenInst";
@@ -97,9 +101,7 @@ button {
   margin-right: 20px; }
 
 .text2 {
-  grid-area: text2;
-  text-align: justify;
-  margin-right: 20px; }
+  grid-area: text2; }
 
 .videoInst {
   grid-area: videoInst; }
@@ -109,6 +111,24 @@ button {
 
 .imagenInst img {
   width: 100%; }
+
+#escuela {
+  display: grid;
+  grid-template-areas: "info info" "ppa pca";
+  grid-template-columns: 50% 50%; }
+
+.info {
+  grid-area: info; }
+
+.ppa {
+  grid-area: ppa;
+  text-align: justify;
+  margin-right: 15px; }
+
+.pca {
+  grid-area: pca;
+  text-align: justify;
+  margin-left: 15px; }
 
 @media screen and (max-width: 320px) {
   .imagenIndex {
@@ -191,7 +211,21 @@ button {
   .imagenInst {
     grid-area: imagenInst; }
   .imagenInst img {
-    width: 100%; } }
+    width: 100%; }
+  #escuela {
+    display: grid;
+    grid-template-areas: "info" "ppa" "pca";
+    grid-template-columns: 100%; }
+  .info {
+    grid-area: info; }
+  .ppa {
+    grid-area: ppa;
+    text-align: justify;
+    margin-right: unset; }
+  .pca {
+    grid-area: pca;
+    text-align: justify;
+    margin-left: unset; } }
 
 @media screen and (max-width: 800px) {
   #footerDisplay {
@@ -273,4 +307,18 @@ button {
   .imagenInst img {
     width: 100%; }
   .textEscuela {
-    text-align: justify; } }
+    text-align: justify; }
+  #escuela {
+    display: grid;
+    grid-template-areas: "info info" "ppa pca";
+    grid-template-columns: 50% 50%; }
+  .info {
+    grid-area: info; }
+  .ppa {
+    grid-area: ppa;
+    text-align: justify;
+    margin-right: 15px; }
+  .pca {
+    grid-area: pca;
+    text-align: justify;
+    margin-left: 15px; } }

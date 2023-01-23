@@ -13,9 +13,8 @@
 
 .text2 {
     grid-area: text2;
-    text-align: justify;
-    margin-right: 20px;
 }
+
 
 .videoInst {
     grid-area: videoInst;
@@ -27,4 +26,27 @@
 
 .imagenInst img {
     width: 100%;
+}
+
+#escuela {
+    display: grid;
+    grid-template-areas: "info info"
+                         "ppa pca";
+    grid-template-columns: 50% 50%;
+}
+
+.info {
+    grid-area: info;
+}
+
+.ppa {
+    grid-area: ppa;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.pca {
+    grid-area: pca;
+    text-align: justify;
+    margin-left: 15px;
 }
