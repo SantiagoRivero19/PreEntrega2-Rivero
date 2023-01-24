@@ -52,7 +52,8 @@ a {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
 
 html, main {
   padding-left: 7px;
