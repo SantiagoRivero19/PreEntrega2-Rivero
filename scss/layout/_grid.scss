@@ -20,12 +20,17 @@
     grid-area: videoInst;
 }
 
+.videoInst iframe {
+    border-radius: 10px;
+}
+
 .imagenInst {
     grid-area: imagenInst;
 }
 
 .imagenInst img {
     width: 100%;
+    border-radius: 10px;
 }
 
 #escuela {

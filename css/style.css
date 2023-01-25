@@ -32,6 +32,9 @@ a {
   position: relative;
   text-align: center; }
 
+.imagenIndex img {
+  border-radius: 20px; }
+
 .textIndex {
   position: absolute;
   text-align: justify;
@@ -81,7 +84,8 @@ button {
   padding: 5px; }
 
 .row img {
-  padding: 5px; }
+  padding: 5px;
+  border-radius: 10px; }
 
 .redesSociales {
   display: flex;
@@ -108,11 +112,15 @@ button {
 .videoInst {
   grid-area: videoInst; }
 
+.videoInst iframe {
+  border-radius: 10px; }
+
 .imagenInst {
   grid-area: imagenInst; }
 
 .imagenInst img {
-  width: 100%; }
+  width: 100%;
+  border-radius: 10px; }
 
 #escuela {
   display: grid;
